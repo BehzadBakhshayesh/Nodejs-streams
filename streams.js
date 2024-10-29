@@ -2,8 +2,15 @@ const fs = require('fs');
 
 const server = require('http').createServer()
 
+// res.write("11111111")
+// res.write("222222222222")
+// res.write("3333333333333")
+// res.write("44444444444")
+// res.write("55555555555")
+// res.end() 
 
 server.on('request', (req, res) => {
+
     //SOLUTION 1
 
     // fs.readFile("./test.txt", (error, data) => {
